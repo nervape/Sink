@@ -41,7 +41,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': {
-      prerender: true,
+      predirect: '/dashboard', 
     },
     '/dashboard/**': {
       prerender: true,
